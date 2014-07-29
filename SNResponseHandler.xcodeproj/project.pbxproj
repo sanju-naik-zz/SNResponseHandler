@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3319EF219865C3F004DCF45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319EF119865C3F004DCF45 /* Foundation.framework */; };
+		B3319EF419865C3F004DCF45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319EF319865C3F004DCF45 /* CoreGraphics.framework */; };
+		B3319EF619865C3F004DCF45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319EF519865C3F004DCF45 /* UIKit.framework */; };
+		B3319EFC19865C3F004DCF45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3319EFA19865C3F004DCF45 /* InfoPlist.strings */; };
+		B3319EFE19865C3F004DCF45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3319EFD19865C3F004DCF45 /* main.m */; };
+		B3319F0219865C3F004DCF45 /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3319F0119865C3F004DCF45 /* SNAppDelegate.m */; };
+		B3319F0519865C3F004DCF45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3319F0319865C3F004DCF45 /* Main.storyboard */; };
+		B3319F0819865C3F004DCF45 /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3319F0719865C3F004DCF45 /* SNViewController.m */; };
+		B3319F0A19865C3F004DCF45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3319F0919865C3F004DCF45 /* Images.xcassets */; };
+		B3319F1119865C3F004DCF45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319F1019865C3F004DCF45 /* XCTest.framework */; };
+		B3319F1219865C3F004DCF45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319EF119865C3F004DCF45 /* Foundation.framework */; };
+		B3319F1319865C3F004DCF45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319EF519865C3F004DCF45 /* UIKit.framework */; };
+		B3319F1B19865C3F004DCF45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3319F1919865C3F004DCF45 /* InfoPlist.strings */; };
+		B3319F1D19865C3F004DCF45 /* SNResponseHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3319F1C19865C3F004DCF45 /* SNResponseHandlerTests.m */; };
+		B3319F2719865C84004DCF45 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319F2619865C84004DCF45 /* Parse.framework */; };
+		B3319F2919865EDB004DCF45 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319F2819865EDB004DCF45 /* MobileCoreServices.framework */; };
+		B3319F2B19865EFA004DCF45 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319F2A19865EFA004DCF45 /* CFNetwork.framework */; };
+		B3319F2D19865F4C004DCF45 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319F2C19865F4C004DCF45 /* SystemConfiguration.framework */; };
+		B3319F3319866558004DCF45 /* Facebook Login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3319F3119866558004DCF45 /* Facebook Login@2x.png */; };
+		B3319F38198669AD004DCF45 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3319F37198669AD004DCF45 /* FacebookSDK.framework */; };
+		B3EA89A919866D0D00FF0CBC /* SNResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EA89A819866D0D00FF0CBC /* SNResponseHandler.m */; };
+		B3EA89AB1987A57500FF0CBC /* TestDataDict.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3EA89AA1987A57500FF0CBC /* TestDataDict.rtf */; };
+		B3EA89AD1987B8F100FF0CBC /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B3EA89AC1987B8F100FF0CBC /* ReadMe.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3319F1419865C3F004DCF45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3319EE619865C3F004DCF45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3319EED19865C3F004DCF45;
+			remoteInfo = SNResponseHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3319EEE19865C3F004DCF45 /* SNResponseHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNResponseHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3319EF119865C3F004DCF45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3319EF319865C3F004DCF45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3319EF519865C3F004DCF45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3319EF919865C3F004DCF45 /* SNResponseHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNResponseHandler-Info.plist"; sourceTree = "<group>"; };
+		B3319EFB19865C3F004DCF45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3319EFD19865C3F004DCF45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3319EFF19865C3F004DCF45 /* SNResponseHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNResponseHandler-Prefix.pch"; sourceTree = "<group>"; };
+		B3319F0019865C3F004DCF45 /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
+		B3319F0119865C3F004DCF45 /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
+		B3319F0419865C3F004DCF45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3319F0619865C3F004DCF45 /* SNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
+		B3319F0719865C3F004DCF45 /* SNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
+		B3319F0919865C3F004DCF45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3319F0F19865C3F004DCF45 /* SNResponseHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNResponseHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3319F1019865C3F004DCF45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3319F1819865C3F004DCF45 /* SNResponseHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SNResponseHandlerTests-Info.plist"; sourceTree = "<group>"; };
+		B3319F1A19865C3F004DCF45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3319F1C19865C3F004DCF45 /* SNResponseHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNResponseHandlerTests.m; sourceTree = "<group>"; };
+		B3319F2619865C84004DCF45 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		B3319F2819865EDB004DCF45 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B3319F2A19865EFA004DCF45 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B3319F2C19865F4C004DCF45 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B3319F3119866558004DCF45 /* Facebook Login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Facebook Login@2x.png"; sourceTree = "<group>"; };
+		B3319F37198669AD004DCF45 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		B3EA89A719866D0D00FF0CBC /* SNResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNResponseHandler.h; sourceTree = "<group>"; };
+		B3EA89A819866D0D00FF0CBC /* SNResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNResponseHandler.m; sourceTree = "<group>"; };
+		B3EA89AA1987A57500FF0CBC /* TestDataDict.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = TestDataDict.rtf; sourceTree = "<group>"; };
+		B3EA89AC1987B8F100FF0CBC /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3319EEB19865C3F004DCF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3319F2D19865F4C004DCF45 /* SystemConfiguration.framework in Frameworks */,
+				B3319F2B19865EFA004DCF45 /* CFNetwork.framework in Frameworks */,
+				B3319F2919865EDB004DCF45 /* MobileCoreServices.framework in Frameworks */,
+				B3319EF419865C3F004DCF45 /* CoreGraphics.framework in Frameworks */,
+				B3319EF619865C3F004DCF45 /* UIKit.framework in Frameworks */,
+				B3319F38198669AD004DCF45 /* FacebookSDK.framework in Frameworks */,
+				B3319F2719865C84004DCF45 /* Parse.framework in Frameworks */,
+				B3319EF219865C3F004DCF45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3319F0C19865C3F004DCF45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3319F1119865C3F004DCF45 /* XCTest.framework in Frameworks */,
+				B3319F1319865C3F004DCF45 /* UIKit.framework in Frameworks */,
+				B3319F1219865C3F004DCF45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3319EE519865C3F004DCF45 = {
+			isa = PBXGroup;
+			children = (
+				B3319EF719865C3F004DCF45 /* SNResponseHandler */,
+				B3319F1619865C3F004DCF45 /* SNResponseHandlerTests */,
+				B3319EF019865C3F004DCF45 /* Frameworks */,
+				B3319EEF19865C3F004DCF45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3319EEF19865C3F004DCF45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3319EEE19865C3F004DCF45 /* SNResponseHandler.app */,
+				B3319F0F19865C3F004DCF45 /* SNResponseHandlerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3319EF019865C3F004DCF45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3319F37198669AD004DCF45 /* FacebookSDK.framework */,
+				B3319F2C19865F4C004DCF45 /* SystemConfiguration.framework */,
+				B3319F2A19865EFA004DCF45 /* CFNetwork.framework */,
+				B3319F2819865EDB004DCF45 /* MobileCoreServices.framework */,
+				B3319F2619865C84004DCF45 /* Parse.framework */,
+				B3319EF119865C3F004DCF45 /* Foundation.framework */,
+				B3319EF319865C3F004DCF45 /* CoreGraphics.framework */,
+				B3319EF519865C3F004DCF45 /* UIKit.framework */,
+				B3319F1019865C3F004DCF45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3319EF719865C3F004DCF45 /* SNResponseHandler */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA89AC1987B8F100FF0CBC /* ReadMe.rtf */,
+				B3EA89A619866CEA00FF0CBC /* ResponseHandlerClass */,
+				B3319F3019866558004DCF45 /* Images */,
+				B3319F0019865C3F004DCF45 /* SNAppDelegate.h */,
+				B3319F0119865C3F004DCF45 /* SNAppDelegate.m */,
+				B3319F0319865C3F004DCF45 /* Main.storyboard */,
+				B3319F0619865C3F004DCF45 /* SNViewController.h */,
+				B3319F0719865C3F004DCF45 /* SNViewController.m */,
+				B3319F0919865C3F004DCF45 /* Images.xcassets */,
+				B3319EF819865C3F004DCF45 /* Supporting Files */,
+			);
+			path = SNResponseHandler;
+			sourceTree = "<group>";
+		};
+		B3319EF819865C3F004DCF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3319EF919865C3F004DCF45 /* SNResponseHandler-Info.plist */,
+				B3319EFA19865C3F004DCF45 /* InfoPlist.strings */,
+				B3319EFD19865C3F004DCF45 /* main.m */,
+				B3319EFF19865C3F004DCF45 /* SNResponseHandler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3319F1619865C3F004DCF45 /* SNResponseHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3319F1C19865C3F004DCF45 /* SNResponseHandlerTests.m */,
+				B3319F1719865C3F004DCF45 /* Supporting Files */,
+			);
+			path = SNResponseHandlerTests;
+			sourceTree = "<group>";
+		};
+		B3319F1719865C3F004DCF45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3319F1819865C3F004DCF45 /* SNResponseHandlerTests-Info.plist */,
+				B3319F1919865C3F004DCF45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3319F3019866558004DCF45 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA89AA1987A57500FF0CBC /* TestDataDict.rtf */,
+				B3319F3119866558004DCF45 /* Facebook Login@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B3EA89A619866CEA00FF0CBC /* ResponseHandlerClass */ = {
+			isa = PBXGroup;
+			children = (
+				B3EA89A719866D0D00FF0CBC /* SNResponseHandler.h */,
+				B3EA89A819866D0D00FF0CBC /* SNResponseHandler.m */,
+			);
+			name = ResponseHandlerClass;
+			path = ResponseHandlerClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3319EED19865C3F004DCF45 /* SNResponseHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3319F2019865C3F004DCF45 /* Build configuration list for PBXNativeTarget "SNResponseHandler" */;
+			buildPhases = (
+				B3319EEA19865C3F004DCF45 /* Sources */,
+				B3319EEB19865C3F004DCF45 /* Frameworks */,
+				B3319EEC19865C3F004DCF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNResponseHandler;
+			productName = SNResponseHandler;
+			productReference = B3319EEE19865C3F004DCF45 /* SNResponseHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3319F0E19865C3F004DCF45 /* SNResponseHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3319F2319865C3F004DCF45 /* Build configuration list for PBXNativeTarget "SNResponseHandlerTests" */;
+			buildPhases = (
+				B3319F0B19865C3F004DCF45 /* Sources */,
+				B3319F0C19865C3F004DCF45 /* Frameworks */,
+				B3319F0D19865C3F004DCF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3319F1519865C3F004DCF45 /* PBXTargetDependency */,
+			);
+			name = SNResponseHandlerTests;
+			productName = SNResponseHandlerTests;
+			productReference = B3319F0F19865C3F004DCF45 /* SNResponseHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3319EE619865C3F004DCF45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sanju Naik";
+				TargetAttributes = {
+					B3319F0E19865C3F004DCF45 = {
+						TestTargetID = B3319EED19865C3F004DCF45;
+					};
+				};
+			};
+			buildConfigurationList = B3319EE919865C3F004DCF45 /* Build configuration list for PBXProject "SNResponseHandler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3319EE519865C3F004DCF45;
+			productRefGroup = B3319EEF19865C3F004DCF45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3319EED19865C3F004DCF45 /* SNResponseHandler */,
+				B3319F0E19865C3F004DCF45 /* SNResponseHandlerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3319EEC19865C3F004DCF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3319F3319866558004DCF45 /* Facebook Login@2x.png in Resources */,
+				B3EA89AB1987A57500FF0CBC /* TestDataDict.rtf in Resources */,
+				B3319F0A19865C3F004DCF45 /* Images.xcassets in Resources */,
+				B3319EFC19865C3F004DCF45 /* InfoPlist.strings in Resources */,
+				B3EA89AD1987B8F100FF0CBC /* ReadMe.rtf in Resources */,
+				B3319F0519865C3F004DCF45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3319F0D19865C3F004DCF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3319F1B19865C3F004DCF45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3319EEA19865C3F004DCF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EA89A919866D0D00FF0CBC /* SNResponseHandler.m in Sources */,
+				B3319EFE19865C3F004DCF45 /* main.m in Sources */,
+				B3319F0819865C3F004DCF45 /* SNViewController.m in Sources */,
+				B3319F0219865C3F004DCF45 /* SNAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3319F0B19865C3F004DCF45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3319F1D19865C3F004DCF45 /* SNResponseHandlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3319F1519865C3F004DCF45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3319EED19865C3F004DCF45 /* SNResponseHandler */;
+			targetProxy = B3319F1419865C3F004DCF45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3319EFA19865C3F004DCF45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3319EFB19865C3F004DCF45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3319F0319865C3F004DCF45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3319F0419865C3F004DCF45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3319F1919865C3F004DCF45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3319F1A19865C3F004DCF45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3319F1E19865C3F004DCF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3319F1F19865C3F004DCF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3319F2119865C3F004DCF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNResponseHandler/SNResponseHandler-Prefix.pch";
+				INFOPLIST_FILE = "SNResponseHandler/SNResponseHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3319F2219865C3F004DCF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNResponseHandler/SNResponseHandler-Prefix.pch";
+				INFOPLIST_FILE = "SNResponseHandler/SNResponseHandler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3319F2419865C3F004DCF45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNResponseHandler.app/SNResponseHandler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNResponseHandler/SNResponseHandler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SNResponseHandlerTests/SNResponseHandlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3319F2519865C3F004DCF45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SNResponseHandler.app/SNResponseHandler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNResponseHandler/SNResponseHandler-Prefix.pch";
+				INFOPLIST_FILE = "SNResponseHandlerTests/SNResponseHandlerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3319EE919865C3F004DCF45 /* Build configuration list for PBXProject "SNResponseHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3319F1E19865C3F004DCF45 /* Debug */,
+				B3319F1F19865C3F004DCF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3319F2019865C3F004DCF45 /* Build configuration list for PBXNativeTarget "SNResponseHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3319F2119865C3F004DCF45 /* Debug */,
+				B3319F2219865C3F004DCF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3319F2319865C3F004DCF45 /* Build configuration list for PBXNativeTarget "SNResponseHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3319F2419865C3F004DCF45 /* Debug */,
+				B3319F2519865C3F004DCF45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3319EE619865C3F004DCF45 /* Project object */;
+}
